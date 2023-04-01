@@ -1,35 +1,51 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Syne+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Syne+Mono&display=swap");
 
-*{margin: 0 auto;
-    padding: 0;
-box-sizing: border-box;
-font-family: 'Open Sans', sans-serif;}
-
-#menu-h{background-color:rgba(37,37,39);}
-
-#menu-h ul{list-style:none;
-    max-width: 800px;
-padding: 0;
+* {
+  margin: 0 auto;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-#menu-h ul li{display: inline;}
+#menu-h {
+  background-color: rgba(37, 37, 39);
+}
 
-#menu-h ul li a{color: white;
-  padding: 10px; 
+#menu-h ul {
+  list-style: none;
+  max-width: 800px;
+  padding: 0;
+}
+
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  color: white;
+  padding: 10px;
   text-decoration: none;
   display: inline-block;
-transition-duration: .4s;}
+  transition-duration: 0.4s;
+}
 
-  #menu-h ul li a:hover{background-color: rgb(24, 139, 233);}
+#menu-h ul li a:hover {
+  background-color: rgb(24, 139, 233);
+}
 
-  #menu-h ul li:last-child a{ float: right;
-background-color: rgb(24, 139, 233);}
+#menu-h ul li:last-child a {
+  float: right;
+  background-color: rgb(24, 139, 233);
+}
 
-body{ background-color: rgb(120, 163, 201);}
+body {
+  background-color: rgb(120, 163, 201);
+}
 
-main{min-width: 300px;
+main {
+  min-width: 300px;
   max-width: 1000px;
   margin: auto;
   margin-bottom: 30px;
@@ -37,44 +53,55 @@ main{min-width: 300px;
   background-color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
   border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;}
-
-
-main{ text-align: center;
-  background-color: rgba(67, 86, 99, 0.527);
-border: 5px 5px;
-padding: 2px;
+  border-bottom-right-radius: 10px;
 }
 
-main > p{ background-color: rgba(110, 137, 156, 0.397);
+main {
+  text-align: center;
+  background-color: rgba(67, 86, 99, 0.527);
+  border: 5px 5px;
+  padding: 2px;
+}
+
+main > p {
+  background-color: rgba(110, 137, 156, 0.397);
   color: rgba(0, 0, 0, 0.795);
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
 }
 
-form{ background-color: azure;
-padding: 5px;
-border: 5px;}
+form {
+  background-color: azure;
+  padding: 5px;
+  border: 5px;
+}
 
 .nom {
-border: 5px 5px 5px;
+  border: 5px 5px 5px;
   margin: 10px;
   border-radius: 5px 5px;
-  text-align: center;}
+  text-align: center;
+}
 
+.fieldset {
+  padding: 5px;
+}
 
+.senioridade {
+  background-color: rgb(46, 55, 61, 0.527);
+  padding: 5px;
+  border: 5px;
+  margin: 10px;
+  text-align: center;
+}
 
-.senioridade { background-color: rgb(46, 55, 61, 0.527);
-padding: 5px;
-border: 5px;
-margin: 10px;
-text-align: center;}
-
-.campo{ background-color: rgba(46, 55, 61, 0.527);
-color: black;
-text-align: center;
-border-radius: 5px 5px 5px 5px;
-border: 5px;
-margin: 10px;
-box-shadow: 3px 3px rgba(0, 0, 0, 0.527);}
+.campo {
+  background-color: rgba(46, 55, 61, 0.527);
+  color: black;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  border: 5px;
+  margin: 10px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.527);
+}
